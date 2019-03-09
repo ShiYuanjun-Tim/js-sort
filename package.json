@@ -1,0 +1,19 @@
+{
+  "name": "js-sort",
+  "version": "1.0.0",
+  "scripts": {
+      "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShiYuanjun-Tim/js-sort"
+  },
+  "keywords": [],
+  "author": "ShiyuanJun-Tim",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
+  "devDependencies": {}
+}
