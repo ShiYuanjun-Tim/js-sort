@@ -1,7 +1,10 @@
 
 var swap = require("./utils").swap;
 
-/* 头部到尾部冒泡 升序 */
+/* 头部到尾部冒泡 升序 
+  i:[0,n-1)
+    j:[0,n-i)
+*/
 function bubbleSort(arr) {
   if (arr == null || arr.length < 2) {
     return arr;

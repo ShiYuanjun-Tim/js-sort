@@ -1,6 +1,9 @@
 var swap = require("./utils").swap;
 
-/* 选择排序 升序 */
+/* 选择排序 升序 
+  i:[0,n-1)
+    j:[i,n)
+*/
 function selectionSort(arr) {
   if (arr == null || arr.length < 2) {
     return arr;
