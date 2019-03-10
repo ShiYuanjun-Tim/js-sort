@@ -4,6 +4,7 @@ var bubblesort  = require("../src/bubbleSort")
 var selectionSort  = require("../src/selectionSort") 
 var insertionSort  = require("../src/insertionSort") 
 var quickSort  = require("../src/quickSort") 
+var heapSort  = require("../src/heapSort") 
 var MinHeap  = require("../src/dataStructure/MinHeap") 
 
 var expect = require('chai').expect;
@@ -92,18 +93,7 @@ function runCase(cases, fn){
     runCase(cases, quickSort);
    });
 
-   it('MinHeap', function() {
-     var a= new MinHeap()
-     a.insert(1)
-     a.insert(3)
-   
-     a.insert(6)
-     a.insert(4)
-     a.insert(8)
-     a.insert(7)
-     
-     a.insert(5)
-
-    console.log(a.heaparr)
+  it('MinHeap', function() {
+    runCase(cases,heapSort)
    });
 });
