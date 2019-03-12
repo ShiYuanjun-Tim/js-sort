@@ -1,3 +1,11 @@
-js排序算法演练场
-
-10大排序算法演练
+js 排序算法的测试，同等数据量测试耗时
+bubbleSort: 22.916ms
+    ✓ 冒泡排序
+selectionSort: 5.741ms
+    ✓ 选择排序
+insertionSort: 8.151ms
+    ✓ 插入排序
+quickSort: 4.006ms
+    ✓ 快速排序
+heapSort: 13.934ms
+    ✓ 堆排序

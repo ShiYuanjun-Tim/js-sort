@@ -20,7 +20,7 @@ function runCase(cases, fn){
   console.timeEnd(fn.name)
 }
 
- describe('排序算法的测试', function() {
+ describe('排序算法的测试，同等数据量测试耗时', function() {
 
   before(function() {
     // 在本区块的所有测试用例之前执行
@@ -93,7 +93,7 @@ function runCase(cases, fn){
     runCase(cases, quickSort);
    });
 
-  it('MinHeap', function() {
+  it('堆排序', function() {
     runCase(cases,heapSort)
    });
 });
